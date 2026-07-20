@@ -2,12 +2,48 @@ export type Lot = { name: string; premium?: string }
 export type FairClass = { name: string; lots: Lot[] }
 export type Department = { slug: string; name: string; icon: string; source: string; summary: string; rules: string[]; classes: FairClass[] }
 
-export const edition = { year: 2026, status: 'unconfirmed' as 'unconfirmed' | 'confirmed', announcement: 'The next fair dates and deadlines will be posted here after Fair Board confirmation.', mission: 'The Benewah County Fair Board plans, coordinates, and produces an annual fair with youth and adult exhibits, 4-H and Junior Show & Sale competition, livestock, agricultural and educational displays, entertainment, and food concessions for area residents and visitors.', source: 'Notion: Benewah County Fairbook' }
+export const edition = { year: 2026, status: 'confirmed' as 'unconfirmed' | 'confirmed', announcement: 'August 10–16, 2026 · Check-ins August 10–12 · Fair events August 13–15.', mission: 'The Benewah County Fair Board plans, coordinates, and produces an annual fair with youth and adult exhibits, 4-H and Junior Show & Sale competition, livestock, agricultural and educational displays, entertainment, and food concessions for area residents and visitors.', source: 'Benewah County Fairbook, 2026 edition' }
 
-export const fairBoard = { members: ['Kenny Moore — Chairman', 'Celia Sibert — Vice Chair', 'Nancy Malensky', 'Heath Moore', 'Robin Applewhite'], secretaryTreasurer: 'Jodi Dundas', groundsMaintenance: ['Jamie Nitcy', 'Craig Law', 'Donna Janssen'], juniorShowAndSale: ['Nancy Malensky — Chairman', 'Kenny Moore — Vice Chairman', 'Jackie McGregor — Secretary', 'Kami Law — Treasurer'] }
+export const fairBoard = { members: ['Kenny Moore — Chairman', 'Celia Sibert — Vice Chair', 'Nancy Malensky', 'Heath Moore', 'Robin Applewhite'], secretaryTreasurer: 'Jodi Dundas', groundsMaintenance: ['Jamie Nitcy', 'Craig Law', 'Donna Janssen'], commissioners: ['Phil Lampert', 'Bob Short', 'Mark Reynolds'], juniorShowAndSale: ['Nancy Malensky — Chairman', 'Kenny Moore — Vice Chairman', 'Jackie McGregor — Secretary', 'Kami Law — Treasurer'] }
 
-// Dated items are intentionally absent until the Fair Board confirms this edition.
-export const schedule: { date: string; time: string; location: string; category: string; title: string; visible: boolean }[] = []
+export const eventFlyers = [{ title: 'Kiwanis Breakfast for Dinner', detail: 'Friday, August 14 · 4:00–7:00 p.m. · Benewah County Fairgrounds · Ages 50+', image: 'Kiwanis Flyer.png' }]
+
+export const schedule = [
+  ['Monday, August 10, 2026', '9:00 a.m.–6:00 p.m.', 'Fairgrounds', 'Exhibits', 'Booth set-up'],
+  ['Monday, August 10, 2026', '4:00–7:00 p.m.', 'Fairgrounds', '4-H', '4-H indoor project interviews'],
+  ['Tuesday, August 11, 2026', '10:00 a.m.–7:00 p.m.', 'Fairgrounds', 'Exhibits', 'Open Class indoor exhibit check-in'],
+  ['Tuesday, August 11, 2026', '4:00–7:00 p.m.', 'Fairgrounds', '4-H', '4-H indoor project interviews'],
+  ['Wednesday, August 12, 2026', 'All day', 'Fair buildings', 'Exhibits', 'Fair buildings closed for judging'],
+  ['Wednesday, August 12, 2026', '7:00 a.m.–12:00 p.m.', 'Fairgrounds', 'Livestock', 'Livestock exhibit check-in'],
+  ['Wednesday, August 12, 2026', '4:00–7:00 p.m.', 'Fairgrounds', 'Livestock', 'Livestock exhibit check-in'],
+  ['Thursday, August 13, 2026', '8:00–8:30 a.m.', 'Livestock area', 'Livestock', 'Junior Show participants meet with judge'],
+  ['Thursday, August 13, 2026', '8:30–10:00 a.m.', 'Livestock area', 'Livestock', 'Beef quality'],
+  ['Thursday, August 13, 2026', '10:00 a.m.–12:00 p.m.', 'Livestock area', 'Livestock', 'Swine fitting & showing'],
+  ['Thursday, August 13, 2026', '1:00–3:30 p.m.', 'Livestock area', 'Livestock', 'Poultry & rabbit fitting & showing'],
+  ['Thursday, August 13, 2026', '3:30–4:45 p.m.', 'Livestock area', 'Livestock', 'Market lamb quality'],
+  ['Thursday, August 13, 2026', '4:45–5:45 p.m.', 'Livestock area', 'Livestock', 'Market goat quality'],
+  ['Thursday, August 13, 2026', '5:45–6:30 p.m.', 'Livestock area', 'Livestock', 'Horse showmanship finals'],
+  ['Thursday, August 13, 2026', '6:30–7:00 p.m.', 'Livestock area', 'Livestock', 'PeeWee swine show (ages 5–8; pre-register by noon)'],
+  ['Friday, August 14, 2026', '8:00–9:30 a.m.', 'Livestock area', 'Livestock', 'Beef fitting & showing'],
+  ['Friday, August 14, 2026', '9:30–11:30 a.m.', 'Livestock area', 'Livestock', 'Swine quality'],
+  ['Friday, August 14, 2026', '12:00–12:45 p.m.', 'Livestock area', 'Livestock', 'Sheep fitting & showing'],
+  ['Friday, August 14, 2026', '12:45–1:30 p.m.', 'Livestock area', 'Livestock', 'Goat fitting & showing; dairy goat quality'],
+  ['Friday, August 14, 2026', '1:30–3:00 p.m.', 'Livestock area', 'Livestock', 'Livestock judging contest'],
+  ['Friday, August 14, 2026', '4:00 p.m.', 'Fairgrounds', 'Awards', 'ADG, All Around & Showmanship Buckle awards'],
+  ['Friday, August 14, 2026', '4:00–7:00 p.m.', 'Fairgrounds', 'Events', 'Kiwanis Breakfast for Dinner'],
+  ['Friday, August 14, 2026', '4:30–6:30 p.m.', 'Fairgrounds', 'Livestock', 'Round Robin'],
+  ['Friday, August 14, 2026', 'Evening', 'Big Screen', 'Events', 'Movie night'],
+  ['Friday, August 14, 2026', 'Afternoon', 'Fairgrounds lawn', 'Events', 'Vendors on the lawn'],
+  ['Saturday, August 15, 2026', '7:00–9:00 a.m.', 'Fairgrounds', 'Events', 'Buyers’ Appreciation Breakfast'],
+  ['Saturday, August 15, 2026', '8:00–9:30 a.m.', 'Fairgrounds', 'Events', 'Dessert contest entries'],
+  ['Saturday, August 15, 2026', '9:00 a.m.', 'Fairgrounds', 'Livestock', 'Livestock auction'],
+  ['Saturday, August 15, 2026', '12:00 p.m.', 'Fairgrounds', 'Events', 'Dessert auction (immediately after livestock auction)'],
+  ['Saturday, August 15, 2026', '3:00 p.m.', 'Fairgrounds', 'Events', 'Cow Patty Bingo'],
+  ['Saturday, August 15, 2026', '4:00 p.m.', 'Fairgrounds', '4-H', '4-H horse exhibition'],
+  ['Saturday, August 15, 2026', '7:30–10:00 p.m.', 'Fairgrounds', 'Youth', 'Youth Barn Dance'],
+  ['Saturday, August 15, 2026', 'All day', 'Fairgrounds lawn', 'Events', 'Vendors on the lawn'],
+  ['Sunday, August 16, 2026', '9:00 a.m.', 'Fairgrounds', 'Exhibits', 'Check-out of all exhibits'],
+].map(([date, time, location, category, title]) => ({ date, time, location, category, title, visible: true }))
 
 export const generalRules = [
   'The Fair Board will take reasonable precautions to preserve exhibits, but is not responsible for loss, damage, or injury to property or persons on the grounds.',
@@ -19,7 +55,8 @@ export const generalRules = [
   'Premiums are paid to bona fide residents or taxpayers of Benewah County and portions of Kootenai and Shoshone Counties.',
   'Unless otherwise stated, entries are not limited per class, but an exhibitor may receive no more than two awards in one class and may not enter duplicate items.',
   'Disrespect toward a judge or award, or a violation of fair rules, may result in forfeiture of premiums. Judges’ decisions are final.',
-  'Judging protests must be written, state the cause of complaint, include the required deposit, and be submitted to the Building Superintendent within the published protest period.'
+  'Judging protests must be written, state the cause of complaint, include the required $25 deposit, and be submitted to the Building Superintendent within six hours after the cause of protest.',
+  'All exhibits remain on display until 9:00 a.m. Sunday, August 16, 2026, and must be checked out by noon. Early removal forfeits award money.'
 ]
 
 export const displays = [
@@ -49,7 +86,7 @@ export const departments: Department[] = [
   { slug: 'photography', name: 'Photography', icon: '📷', source: 'Fairbook_Photography.idml / Photography.pdf', summary: 'Printed photographs that capture people, places, animals, nature, and fair life.', rules: ['Photographs must be securely mounted as directed in the department guide.'], classes: [{name:'Photography',lots:['People','Animals','Scenic','Nature','Architecture','Digital Enhancement'].map(name=>({name}))}] },
   { slug: 'sewing', name: 'Sewing', icon: '🧵', source: 'Fairbook_Sewing.idml / Sewing.pdf', summary: 'Garments, quilts, accessories, and sewn household items.', rules: ['Garments should be clean, pressed, and ready to hang or display.'], classes: [{name:'Garments',lots:['Child Garment','Adult Garment','Outerwear','Accessory'].map(name=>({name}))},{name:'Household Sewing',lots:['Quilt','Pillow','Table Linen','Other'].map(name=>({name}))}] },
   { slug: 'youth', name: 'Youth Exhibits', icon: '🌟', source: 'Fairbook_Youth.idml / Youth.pdf', summary: 'Youth projects and age-appropriate creative exhibits.', rules: ['Youth exhibitors should enter age-appropriate work under the current youth department directions.'], classes: [{name:'Youth Projects',lots:['Art','Craft','Baking','Garden','Photography'].map(name=>({name}))}] },
-  { slug: 'antlers', name: 'Antlers', icon: '🦌', source: 'Notion / Fairbook_Antlers.idml / Antlers.pdf', summary: 'Naturally shed antlers from moose, elk, whitetail deer, and mule deer.', rules: ['All entries must be naturally shed antlers with clean, natural bases; saw marks or man-made alterations disqualify an entry.', 'One entry per category is permitted. Antlers may be re-entered annually and are displayed for the duration of the fair.', 'Entries use Boone and Crockett scoring; the most unique antlers receive the Judges’ Choice Award.'], classes: [{name:'Whitetail Deer',lots:['Single Typical','Matched Typical','Single Non-Typical','Matched Non-Typical'].map(name=>({name}))},{name:'Mule Deer',lots:['Single Typical','Matched Typical','Single Non-Typical','Matched Non-Typical'].map(name=>({name}))},{name:'American Elk',lots:['Single Typical','Matched Typical','Single Non-Typical','Matched Non-Typical'].map(name=>({name}))},{name:'Idaho Moose',lots:['Single','Matched'].map(name=>({name}))},{name:'Most Unique Horn',lots:[{name:'Any species — Judges’ Choice Award'}]}] },
+  { slug: 'antlers', name: 'Antlers', icon: '🦌', source: 'Notion / Fairbook_Antlers.idml / Antlers.pdf', summary: 'Naturally shed antlers from moose, elk, whitetail deer, and mule deer.', rules: ['Check in Tuesday, August 11, 2026, 10:00 a.m.–7:00 p.m.', 'All entries must be naturally shed antlers with clean, natural bases; saw marks or man-made alterations disqualify an entry.', 'One entry per category is permitted. Antlers may be re-entered annually and are displayed for the duration of the fair.', 'Entries use Boone and Crockett scoring; the most unique antlers receive the Judges’ Choice Award.'], classes: [{name:'Whitetail Deer',lots:['Single Typical','Matched Typical','Single Non-Typical','Matched Non-Typical'].map(name=>({name}))},{name:'Mule Deer',lots:['Single Typical','Matched Typical','Single Non-Typical','Matched Non-Typical'].map(name=>({name}))},{name:'American Elk',lots:['Single Typical','Matched Typical','Single Non-Typical','Matched Non-Typical'].map(name=>({name}))},{name:'Idaho Moose',lots:['Single','Matched'].map(name=>({name}))},{name:'Most Unique Horn',lots:[{name:'Any species — Judges’ Choice Award'}]}] },
 ]
 
 export const downloads = [{name:'Complete Fairbook', file:'Fairbook.pdf'}, ...departments.map(d => ({name:d.name, file: d.source.split('/ ').at(-1)!}))]
