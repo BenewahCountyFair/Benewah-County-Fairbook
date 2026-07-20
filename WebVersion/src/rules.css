@@ -1,0 +1,1 @@
+.display-grid,.board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.25rem 0 3rem}.board{background:#e9efe8;padding:1.3rem;border-radius:8px}.board h3{margin:.2rem 0 .7rem;font-size:1.2rem}.board p{margin:.35rem 0;line-height:1.45}@media(max-width:700px){.display-grid,.board{grid-template-columns:1fr}}
