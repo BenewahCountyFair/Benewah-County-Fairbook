@@ -129,9 +129,9 @@ Kiwanis Breakfast for Dinner
 
 ### Schedule
 
-**Check-ins August 10th-12th, Showing August 13th-15th**
+**Check-ins August 18th-19th, Showing August 20th-21th**
 
-| **Monday, Aug 10th** | **Tuesday, Aug 11th** | **Wednesday, Aug 12th** | **Thursday, Aug 13th** |
+| **Monday, Aug 18th** | **Tuesday, Aug 19th** | **Wednesday, Aug 20th** | **Thursday, Aug 21th** |
 | --- | --- | --- | --- |
 | **9:00am-6:00pm: Booth Set-up** | **10:00am-7:00pm: Open Class Indoor Exhibit Check-in** | **NOTE: All Fair buildings CLOSED for judging** | **8:000am-830am: All Junior Show participants must meet with Judge** |
 | **4:00pm-7:00pm: 4-H Indoor Project Interviews** | **4:00pm-7:00pm:   4-H Indoor Project Interviews** | **7:00am-12:00pm: Enter all livestock exhibits** | **8:30am-10:00am: Beef Quality** |
@@ -143,7 +143,7 @@ Kiwanis Breakfast for Dinner
 |  |  |  | **5:45pm-6:30pm: Horse Showmanship Finals** |
 |  |  |  | **6:30pm-7:00pm: PeeWee Swine Show, 5-8 years, pre-register with barn superintendent before 12pm** |
 
-| **Friday, Aug 14th** | **Saturday, Aug 15th** | **Sunday, Aug 16th** |
+| **Friday, Aug 21th** | **Saturday, Aug 22th** | **Sunday, Aug 23th** |
 | --- | --- | --- |
 | **8:00am-9:30am: Beef Fitting & Showing** | **7:00am-9:00am: Buyers’ Appreciation Breakfast** | **9:00am: Check-out of all exhibits** |
 | **9:30am-11:30am: Swine Quality** | **All Day: Vendors on the lawn** |  |
@@ -176,9 +176,6 @@ All entries must be naturally shed antlers from moose, elk, whitetail deer, and 
 - Entries are scored using the Boone and Crockett scoring method. Ribbons are given to the highest-scoring shed in each category.
 - Sheds are displayed for the duration of the fair.
 - The most unique antlers receive the Judges’ Choice Award, chosen by two judges.
-
-**Check-in:** All entries must be checked into the fair on Tuesday, August 11, 2026, between 10:00 a.m. and 7:00 p.m.
-
 ---
 
 **Class 1 - Whitetail Deer**
@@ -332,13 +329,12 @@ Enter whole loaf (no small pans) unless specified otherwise. Entries judged on l
 2. Doughnuts (4)
 3. Dinner Rolls (4)
 4. Rye Bread
+5. White Bread
+6. Whole Wheat Bread
+7. Other Sweet Bread
+8. Coffee Cake
 
-1. White Bread
-2. Whole Wheat Bread
-3. Other Sweet Bread
-4. Coffee Cake
-
-1. Other (specify)
+9. Other (specify)
 
 ---
 
@@ -348,12 +344,10 @@ Enter whole loaf unless specified otherwise
 
 1. White
 2. Whole Wheat
-
-1. Fruit
-2. Rolls (4)
-
-1. Quick Bread
-2. Other (specify)
+3. Fruit
+4. Rolls (4)
+5. Quick Bread
+6. Other (specify)
 
 ---
 
@@ -366,13 +360,11 @@ Entries judged on size, uniform shape, crust, crumb, grain, lightness, tendernes
 1. Banana Bread
 2. Coffee Cake
 3. Doughnuts (4)
-
-1. Fruit Bread
-2. Muffins (4)
-3. Vegetable Bread
-
-1. Biscuits (4)
-2. Other (specify)
+4. Fruit Bread
+5. Muffins (4)
+6. Vegetable Bread
+7. Biscuits (4)
+8. Other (specify)
 
 ---
 
@@ -386,16 +378,14 @@ Judged on appearance, shape, if frosted. (glossy, not granular or sticky), textu
 2. Chocolate, frosted
 3. Fruit
 4. Nut, unfrosted
-
-1. Pound Cake, unfrosted
-2. Spice, frosted
-3. Yellow, frosted
-4. White, frosted
-
-1. Bundt
-2. Cupcakes (4)
-3. Sponge Cake (specify)
-4. Other (Specify)
+5. Pound Cake, unfrosted
+6. Spice, frosted
+7. Yellow, frosted
+8. White, frosted
+9. Bundt
+10. Cupcakes (4)
+11. Sponge Cake (specify)
+12. Other (Specify)
 
 ---
 
@@ -407,13 +397,11 @@ No fresh fruit, whipped cream, or custard. Styrofoam may be used, (if used, plea
 
 1. Cake, Anniversary/Wedding
 2. Cake, Birthday
-
-1. Cupcakes (4)
-2. Cake, Holiday
-
-1. Cake, Novelty
-2. Gingerbread House
-3. Cookies (4)
+3. Cupcakes (4)
+4. Cake, Holiday
+5. Cake, Novelty
+6. Gingerbread House
+7. Cookies (4)
 
 ---
 
@@ -423,12 +411,10 @@ Exhibit whole pies in Foil Pans (minimum 8") No custard or cream pies
 
 1. Apple
 2. Berry
-
-1. Cherry
-2. Peach or Apricot
-
-1. Mixed Fruit
-2. Other (specify)
+3. Cherry
+4. Peach or Apricot
+5. Mixed Fruit
+6. Other (specify)
 
 ---
 
@@ -441,17 +427,15 @@ Four cookies constitute entry. Judge on general appearance (uniform shape, delic
 3. Drop, chocolate chip
 4. Drop, other
 5. No Bake, bar
-
-1. No Bake, drop
-2. Pressed, with cookie press
-3. Refrigerator
-4. Rolled with rolling pin
-5. Molded by hand
-
-1. Holiday
-2. Holiday, no bake
-3. From another country (specify)
-4. Other (specify
+6. No Bake, drop
+7. Pressed, with cookie press
+8. Refrigerator
+9. Rolled with rolling pin
+10. Molded by hand
+11. Holiday
+12. Holiday, no bake
+13. From another country (specify)
+14. Other (specify
 
 ---
 
@@ -464,19 +448,17 @@ Four pieces constitute an entry
 3. Caramel
 4. Divinity
 5. Fondant
-
-1. Fudge
-2. Mints
-3. Molded
-4. Molded, filled
-5. Peanut Brittle
-
-1. Popcorn Treat
+6. Fudge
+7. Mints
+8. Molded
+9. Molded, filled
+10. Peanut Brittle
+11. Popcorn Treat
 (1 cup in bag)
-2. Popcorn Balls (4 pieces)
-3. Snack Mix (1 cup in bag)
-4. Taffy
-5. Other (specify)
+12. Popcorn Balls (4 pieces)
+13. Snack Mix (1 cup in bag)
+14. Taffy
+15. Other (specify)
 
 ---
 
