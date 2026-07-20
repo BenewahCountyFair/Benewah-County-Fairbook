@@ -1,12 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import { departments, downloads, edition, eventFlyers, fairBoard, fairMission, generalRules, officialDepartmentContent, schedule } from './fairbook'
+import fairbookSource from './fairbook-source.md?raw'
 
 describe('fairbook publishing content', () => {
   it('publishes the confirmed 2026 fair schedule', () => {
     expect(edition.status).toBe('confirmed')
     expect(schedule.every(event => event.visible)).toBe(true)
-    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Monday, August 10, 2026', title: 'Booth set-up' }))
-    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Saturday, August 15, 2026', title: 'Livestock auction' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Monday, August 17, 2026', title: 'Booth set-up' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Saturday, August 22, 2026', title: 'Livestock auction' }))
   })
 
   it('provides a stable, printable guide for every department', () => {
@@ -38,5 +39,16 @@ describe('fairbook publishing content', () => {
     expect(officialDepartmentContent('baking')).toContain('Cinnamon Rolls (4)')
     expect(officialDepartmentContent('livestock')).toContain('There is a ban on Waterfowl')
     expect(officialDepartmentContent('youth')).toContain('Entomology')
+  })
+
+  it('keeps every exhibition class lot list sequentially numbered', () => {
+    const classSections = [...fairbookSource.matchAll(/(?:^|\n)\*\*Class [^\n]+\*\*([\s\S]*?)(?=\n---\n|\n\*\*Class |\n# |\s*$)/g)]
+      .map(match => match[1])
+
+    for (const section of classSections) {
+      const numbers = [...section.matchAll(/^(\d+)\. /gm)].map(match => Number(match[1]))
+
+      expect(numbers).toEqual(numbers.map((_, index) => index + 1))
+    }
   })
 })
