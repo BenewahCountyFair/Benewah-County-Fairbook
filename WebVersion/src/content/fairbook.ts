@@ -1,3 +1,5 @@
+import fairbookSource from './fairbook-source.md?raw'
+
 export type Lot = { name: string; premium?: string }
 export type FairClass = { name: string; lots: Lot[] }
 export type Department = { slug: string; name: string; icon: string; source: string; summary: string; rules: string[]; classes: FairClass[] }
@@ -6,7 +8,20 @@ export const edition = { year: 2026, status: 'confirmed' as 'unconfirmed' | 'con
 
 export const fairBoard = { members: ['Kenny Moore — Chairman', 'Celia Sibert — Vice Chair', 'Nancy Malensky', 'Heath Moore', 'Robin Applewhite'], secretaryTreasurer: 'Jodi Dundas', groundsMaintenance: ['Jamie Nitcy', 'Craig Law', 'Donna Janssen'], commissioners: ['Phil Lampert', 'Bob Short', 'Mark Reynolds'], juniorShowAndSale: ['Nancy Malensky — Chairman', 'Kenny Moore — Vice Chairman', 'Jackie McGregor — Secretary', 'Kami Law — Treasurer'] }
 
+export const fairMission = { title: 'Showing Our Best', text: 'An educational display of skills, providing a setting for new and recommended methods, materials, varieties, and high-quality livestock. Entries are evaluated by people trained in their methods, skills, and species. Premiums help defray the expense of exhibiting and strengthen the spirit of competition so the best produce, animals, and materials are shown. Community spirit and county pride grow through this constructive project, created by the people of Benewah County through local organizations, community leaders, 4-H clubs, businesses, the Fair Board, Junior Show & Sale Committee, and Junior Rodeo Committee.' }
+
 export const eventFlyers = [{ title: 'Kiwanis Breakfast for Dinner', detail: 'Friday, August 14 · 4:00–7:00 p.m. · Benewah County Fairgrounds · Ages 50+', image: 'Kiwanis Flyer.png' }]
+
+const officialSectionStart: Record<string, string> = {
+  antlers: '# Antlers', art: '# **Antiques & Collectibles**', baking: '# Baking', canning: '# Canning', 'field-crops': '# Field Crops and Seeds', flowers: '# Flowers and Horticulture', 'fruits-vegetables': '# Fruits and Vegetables', 'hobbies-crafts': '# Hobbies and Crafts', 'home-products': '# Home Products', livestock: '# Livestock', photography: '# Photography', sewing: '# Sewing', youth: '# Youth',
+}
+
+export const officialDepartmentContent = (slug: string) => {
+  const start = fairbookSource.indexOf(officialSectionStart[slug] ?? '')
+  if (start < 0) return ''
+  const next = fairbookSource.indexOf('\n# ', start + 1)
+  return fairbookSource.slice(start, next < 0 ? undefined : next).trim()
+}
 
 export const schedule = [
   ['Monday, August 10, 2026', '9:00 a.m.–6:00 p.m.', 'Fairgrounds', 'Exhibits', 'Booth set-up'],
@@ -48,7 +63,9 @@ export const schedule = [
 export const generalRules = [
   'The Fair Board will take reasonable precautions to preserve exhibits, but is not responsible for loss, damage, or injury to property or persons on the grounds.',
   'All exhibits are under the direction of the Fair Board and the division superintendent while on exhibition. The Board may censor controversial or objectionable exhibits or materials.',
-  'Community-display entries cannot also be entered in competition in another class; community organizations are responsible for entering, arranging, and removing their displays.',
+  'All exhibits remain on display until 9:00 a.m. Sunday, August 16, 2026, and must be checked out by noon. Early removal forfeits award money.',
+  'Community-display entries cannot also be entered in competition in another class; they are judged as part of the community exhibit.',
+  'Community organizations are responsible for entering, arranging, and removing their displays on time. Booth construction may be done Sunday, August 9 or Monday, August 10, and must be complete by 6:00 p.m. Monday.',
   'All exhibits must bear the provided entry tags.',
   'Open Class Adult exhibits use the American method of judging; Open Class Youth exhibits use the Danish method and receive a ribbon. Youth exhibitors may submit one entry per category.',
   'Enter exhibits in the proper class. New classes require Fair Board approval, and judges determine whether an entry meets the qualifications.',
@@ -56,7 +73,7 @@ export const generalRules = [
   'Unless otherwise stated, entries are not limited per class, but an exhibitor may receive no more than two awards in one class and may not enter duplicate items.',
   'Disrespect toward a judge or award, or a violation of fair rules, may result in forfeiture of premiums. Judges’ decisions are final.',
   'Judging protests must be written, state the cause of complaint, include the required $25 deposit, and be submitted to the Building Superintendent within six hours after the cause of protest.',
-  'All exhibits remain on display until 9:00 a.m. Sunday, August 16, 2026, and must be checked out by noon. Early removal forfeits award money.'
+  'Premiums may be requested at the fair office after the fair. Bring a self-addressed stamped envelope if you would like a check mailed to you.'
 ]
 
 export const displays = [
