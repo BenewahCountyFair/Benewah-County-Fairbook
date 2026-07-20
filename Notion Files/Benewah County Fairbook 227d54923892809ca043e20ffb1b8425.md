@@ -71,10 +71,10 @@ organizations, community leaders, 4-H Clubs, local businesses, the Fair Board, J
 
 1. The Fair Board will provide attendants and watchmen to take all possible precautions for the safe preservation of all articles on exhibit but will not be responsible for loss, damage or injury to any kind of property or persons while the same are on the grounds.
 2. All exhibits will be under the control and direction of the Fair Board & the Superintendent of that division while on exhibition. The Board reserves the right to censor controversial/objectionable exhibits or materials.
-3. ALL exhibits shall be on display until 9:00 a.m. Sunday, August 23, 2026 and checked out by 12:00 p.m. of the same day. Any exhibit removed from display before the official checkout time will forfeit award money. Superintendents will be on hand during check out to help with any questions. **Buildings will be locked at 12:00 p.m. on August 23**
+3. ALL exhibits shall be on display until 9:00 a.m. Sunday, August 16, 2025 and checked out by 12:00 p.m. of the same day. Any exhibit removed from display before the official checkout time will forfeit award money. Superintendents will be on hand during check out to help with any questions. **Buildings will be locked at 12:00 p.m. on August 16**
 4. Anything entered in community displays cannot be entered in competition in other classes, but will be judged as a part of community exhibit.
 5. Community organizations shall be responsible for entering, arranging
-and removing community exhibits in a timely manner. **All Booth construction may be done Monday, Aug. 17th, but must be completed by 6:00 p.m.**
+and removing community exhibits in a timely manner. **All Booth construction may be done on Sunday, Aug. 9 or Monday, Aug. 10th, but must be completed by Monday @6:00 p.m.**
 6. All exhibits must bear entry tags provided.
 7. Open Class Adult exhibits will be judged by the AMERICAN method of judging. There will be one 1st Prize, 2nd Prize and 3rd Prize awarded in each Class in the Superintendents Entry Book.
     1. Open Class Youth exhibits will be judged by the Danish method of
@@ -123,15 +123,15 @@ check mailed to you, please bring a self-addressed stamped envelope to the fair 
 
 ### Event Flyers
 
-![Kiwanis Breakfast for Dinner. Friday, August 21th, 4:00pm to 7:00pm at the Benewah County Fairground. Age 50+](Benewah%20County%20Fairbook/Kiwanis_Flyer.png)
+![Kiwanis Breakfast for Dinner. Friday, August 14th, 4:00pm to 7:00pm at the Benewah County Fairground. Age 50+](Benewah%20County%20Fairbook/Kiwanis_Flyer.png)
 
 Kiwanis Breakfast for Dinner
 
 ### Schedule
 
-**Booth Setup August 17, Open Class Check-in August 18th, Indoor Judging & Junior Show Check-in August 19th, Fair Events August 20th-22nd**
+**Check-ins August 10th-12th, Showing August 13th-15th**
 
-| **Monday, Aug 17th** | **Tuesday, Aug 18th** | **Wednesday, Aug 19th** | **Thursday, Aug 20th** |
+| **Monday, Aug 10th** | **Tuesday, Aug 11th** | **Wednesday, Aug 12th** | **Thursday, Aug 13th** |
 | --- | --- | --- | --- |
 | **9:00am-6:00pm: Booth Set-up** | **10:00am-7:00pm: Open Class Indoor Exhibit Check-in** | **NOTE: All Fair buildings CLOSED for judging** | **8:000am-830am: All Junior Show participants must meet with Judge** |
 | **4:00pm-7:00pm: 4-H Indoor Project Interviews** | **4:00pm-7:00pm:   4-H Indoor Project Interviews** | **7:00am-12:00pm: Enter all livestock exhibits** | **8:30am-10:00am: Beef Quality** |
@@ -143,7 +143,7 @@ Kiwanis Breakfast for Dinner
 |  |  |  | **5:45pm-6:30pm: Horse Showmanship Finals** |
 |  |  |  | **6:30pm-7:00pm: PeeWee Swine Show, 5-8 years, pre-register with barn superintendent before 12pm** |
 
-| **Friday, Aug 21st** | **Saturday, Aug 22nd** | **Sunday, Aug 23rd** |
+| **Friday, Aug 14th** | **Saturday, Aug 15th** | **Sunday, Aug 16th** |
 | --- | --- | --- |
 | **8:00am-9:30am: Beef Fitting & Showing** | **7:00am-9:00am: Buyers’ Appreciation Breakfast** | **9:00am: Check-out of all exhibits** |
 | **9:30am-11:30am: Swine Quality** | **All Day: Vendors on the lawn** |  |
@@ -176,6 +176,9 @@ All entries must be naturally shed antlers from moose, elk, whitetail deer, and 
 - Entries are scored using the Boone and Crockett scoring method. Ribbons are given to the highest-scoring shed in each category.
 - Sheds are displayed for the duration of the fair.
 - The most unique antlers receive the Judges’ Choice Award, chosen by two judges.
+
+**Check-in:** All entries must be checked into the fair on Tuesday, August 18, between 10:00 a.m. and 7:00 p.m.
+
 ---
 
 **Class 1 - Whitetail Deer**
@@ -329,10 +332,12 @@ Enter whole loaf (no small pans) unless specified otherwise. Entries judged on l
 2. Doughnuts (4)
 3. Dinner Rolls (4)
 4. Rye Bread
+
 5. White Bread
 6. Whole Wheat Bread
 7. Other Sweet Bread
 8. Coffee Cake
+
 9. Other (specify)
 
 ---
@@ -343,8 +348,10 @@ Enter whole loaf unless specified otherwise
 
 1. White
 2. Whole Wheat
+
 3. Fruit
 4. Rolls (4)
+
 5. Quick Bread
 6. Other (specify)
 
@@ -359,9 +366,11 @@ Entries judged on size, uniform shape, crust, crumb, grain, lightness, tendernes
 1. Banana Bread
 2. Coffee Cake
 3. Doughnuts (4)
+
 4. Fruit Bread
 5. Muffins (4)
 6. Vegetable Bread
+
 7. Biscuits (4)
 8. Other (specify)
 
@@ -377,10 +386,12 @@ Judged on appearance, shape, if frosted. (glossy, not granular or sticky), textu
 2. Chocolate, frosted
 3. Fruit
 4. Nut, unfrosted
+
 5. Pound Cake, unfrosted
 6. Spice, frosted
 7. Yellow, frosted
 8. White, frosted
+
 9. Bundt
 10. Cupcakes (4)
 11. Sponge Cake (specify)
@@ -396,8 +407,10 @@ No fresh fruit, whipped cream, or custard. Styrofoam may be used, (if used, plea
 
 1. Cake, Anniversary/Wedding
 2. Cake, Birthday
+
 3. Cupcakes (4)
 4. Cake, Holiday
+
 5. Cake, Novelty
 6. Gingerbread House
 7. Cookies (4)
@@ -410,8 +423,10 @@ Exhibit whole pies in Foil Pans (minimum 8") No custard or cream pies
 
 1. Apple
 2. Berry
+
 3. Cherry
 4. Peach or Apricot
+
 5. Mixed Fruit
 6. Other (specify)
 
@@ -426,11 +441,13 @@ Four cookies constitute entry. Judge on general appearance (uniform shape, delic
 3. Drop, chocolate chip
 4. Drop, other
 5. No Bake, bar
+
 6. No Bake, drop
 7. Pressed, with cookie press
 8. Refrigerator
 9. Rolled with rolling pin
 10. Molded by hand
+
 11. Holiday
 12. Holiday, no bake
 13. From another country (specify)
@@ -447,11 +464,13 @@ Four pieces constitute an entry
 3. Caramel
 4. Divinity
 5. Fondant
+
 6. Fudge
 7. Mints
 8. Molded
 9. Molded, filled
 10. Peanut Brittle
+
 11. Popcorn Treat
 (1 cup in bag)
 12. Popcorn Balls (4 pieces)
