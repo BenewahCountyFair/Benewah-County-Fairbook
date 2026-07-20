@@ -16,6 +16,13 @@ describe('fairbook publishing content', () => {
     expect(downloads).toHaveLength(departments.length + 1)
   })
 
+  it('lists exhibit departments and downloads alphabetically', () => {
+    const departmentNames = departments.map(department => department.name)
+
+    expect(departmentNames).toEqual([...departmentNames].sort((left, right) => left.localeCompare(right)))
+    expect(downloads.slice(1).map(download => download.name)).toEqual(departmentNames)
+  })
+
   it('includes class lots for searching and sharing', () => {
     expect(departments.find(department => department.slug === 'art')?.classes.flatMap(item => item.lots).length).toBeGreaterThan(20)
   })
