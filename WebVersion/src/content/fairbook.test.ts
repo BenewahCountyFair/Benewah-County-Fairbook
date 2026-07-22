@@ -7,7 +7,13 @@ describe('fairbook publishing content', () => {
     expect(edition.status).toBe('confirmed')
     expect(schedule.every(event => event.visible)).toBe(true)
     expect(schedule).toContainEqual(expect.objectContaining({ date: 'Monday, August 17, 2026', title: 'Booth set-up' }))
-    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Saturday, August 22, 2026', title: 'Livestock auction' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Monday, August 17, 2026', time: '6:00 p.m.', title: '4-H dog show' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Wednesday, August 19, 2026', time: '12:00–7:30 p.m.', location: 'Walker Kitchen', title: '4-H livestock assessment' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Thursday, August 20, 2026', time: '2:30–3:30 p.m.', title: 'Market goat quality' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Friday, August 21, 2026', time: '2:30–3:00 p.m.', title: 'PeeWee swine show (ages 5–8; pre-register with the barn superintendent before noon)' }))
+    expect(schedule).toContainEqual(expect.objectContaining({ date: 'Saturday, August 22, 2026', time: '5:00 p.m.', title: 'Junior Show & Sale BBQ and potluck (bring a side dish) and bingo' }))
+    expect(schedule).not.toContainEqual(expect.objectContaining({ title: 'Movie night' }))
+    expect(schedule).not.toContainEqual(expect.objectContaining({ title: 'Youth Barn Dance' }))
   })
 
   it('provides a stable, printable guide for every department', () => {

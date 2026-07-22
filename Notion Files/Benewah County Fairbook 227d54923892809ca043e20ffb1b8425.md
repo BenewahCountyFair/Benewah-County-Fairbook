@@ -129,33 +129,32 @@ Kiwanis Breakfast for Dinner
 
 ### Schedule
 
-**Check-ins August 10th-12th, Showing August 13th-15th**
+**2026 Benewah County Fair · August 17th–23rd**
 
-| **Monday, Aug 10th** | **Tuesday, Aug 11th** | **Wednesday, Aug 12th** | **Thursday, Aug 13th** |
+| **Monday, Aug 17th** | **Tuesday, Aug 18th** | **Wednesday, Aug 19th** | **Thursday, Aug 20th** |
 | --- | --- | --- | --- |
-| **9:00am-6:00pm: Booth Set-up** | **10:00am-7:00pm: Open Class Indoor Exhibit Check-in** | **NOTE: All Fair buildings CLOSED for judging** | **8:000am-830am: All Junior Show participants must meet with Judge** |
-| **4:00pm-7:00pm: 4-H Indoor Project Interviews** | **4:00pm-7:00pm:   4-H Indoor Project Interviews** | **7:00am-12:00pm: Enter all livestock exhibits** | **8:30am-10:00am: Beef Quality** |
-|  |  | **4:00pm-7:00pm: Enter all livestock exhibits** | **10:00am-12:00pm: Swine Fitting & Showing** |
-|  |  |  | **12:00pm: Break** |
-|  |  |  | **1:00pm-3:30pm: Poultry & Rabbit Fitting & Showing (quality judged in pen)** |
-|  |  |  | **3:30pm-4:45pm: Market Lamb Quality** |
-|  |  |  | **4:45pm-5:45pm: Market Goat Quality** |
-|  |  |  | **5:45pm-6:30pm: Horse Showmanship Finals** |
-|  |  |  | **6:30pm-7:00pm: PeeWee Swine Show, 5-8 years, pre-register with barn superintendent before 12pm** |
+| **9:00am-6:00pm: Booth Set-up** | **8:00am: 4-H Horse Show** | **7:00am-12:00pm: Enter all livestock exhibits** | **8:00am-8:30am: All Junior Show participants meet with Judge** |
+| **4:00pm-7:00pm: 4-H Indoor Project Interviews** | **10:00am-7:00pm: Open Class Indoor Exhibit Check-in** | **12:00pm-4:00pm: Poultry & Rabbit Fitting & Showing Quality Judging** | **8:30am-10:00am: Beef Quality** |
+| **6:00pm: 4-H Dog Show** | **4:00pm-7:00pm: 4-H Indoor Project Interviews** | **12:00pm-7:30pm: 4-H Livestock Assessment (Walker Kitchen)** | **10:00am-12:00pm: Swine Fitting & Showing** |
+|  |  | **4:00pm-7:00pm: Enter all livestock exhibits** | **12:00pm: Break** |
+|  |  | **NOTE: All Fair buildings CLOSED for judging** | **1:00pm-2:30pm: Market Lamb Quality** |
+|  |  |  | **2:30pm-3:30pm: Market Goat Quality** |
+|  |  |  | **3:30pm-4:00pm: Dairy Goat / Pet Quality** |
+|  |  |  | **4:15pm-5:00pm: Horse Showmanship Finals** |
+|  |  |  | **5:30pm-7:00pm: Livestock Judging Contest** |
 
-| **Friday, Aug 14th** | **Saturday, Aug 15th** | **Sunday, Aug 16th** |
+| **Friday, Aug 21st** | **Saturday, Aug 22nd** | **Sunday, Aug 23rd** |
 | --- | --- | --- |
 | **8:00am-9:30am: Beef Fitting & Showing** | **7:00am-9:00am: Buyers’ Appreciation Breakfast** | **9:00am: Check-out of all exhibits** |
 | **9:30am-11:30am: Swine Quality** | **All Day: Vendors on the lawn** |  |
-| **11:30-12pm: Break** | **8:00am-9:30am: Dessert Contest Entries** |  |
-| **12pm-12:45pm: Sheep Fitting & Showing** | **9:00am: Livestalk Auction** |  |
+| **11:30am-12:30pm: Break** | **8:00am-9:30am: Dessert Contest Entries** |  |
+| **12:30pm-1:15pm: Sheep Fitting & Showing** | **9:00am: Livestock Auction** |  |
 | **Afternoon: Vendors on the lawn** | **12:00pm: Dessert Auction (immediately following livestock auction)** |  |
-| **12:45pm-1:30pm: Goat Fitting & Showing, and Dairy Goat Quality** | **3:00pm Cow Patty Bingo** |  |
-| **1:30pm-3:00pm: Livestock Judging Contest** | **4:00pm: 4-H Horse Exhibition** |  |
-| **4:00pm: Awards: ADG, All Around, Showmanship Buckles** | **7:30pm-10:00pm: Youth Barn Dance** |  |
+| **1:15pm-2:15pm: Goat Fitting & Showing** | **1:00pm: Turkey Bingo** |  |
+| **2:30pm-3:00pm: PeeWee Swine Show, 5-8 years old, pre-register with barn superintendent before 12pm** | **2:00pm: Archery Contest** |  |
+| **4:00pm: Awards: ADG, All Around, Showmanship Buckles** | **5:00pm: Junior Show & Sale BBQ and potluck (bring a side dish) and BINGO** |  |
 | **4:00pm-7:00pm: Kiwanis Breakfast for Dinner** |  |  |
 | **4:30pm-6:30pm: Round Robin** |  |  |
-| **Evening: Movie Night on the Big Screen** |  |  |
 
 ---
 
