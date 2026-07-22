@@ -19,14 +19,16 @@ describe('fairbook publishing content', () => {
   it('provides a stable, printable guide for every department', () => {
     expect(departments).toHaveLength(13)
     expect(departments.every(department => department.slug && department.classes.length > 0)).toBe(true)
-    expect(downloads).toHaveLength(departments.length + 1)
+    expect(downloads).toHaveLength(departments.length + 2)
+    expect(downloads[0]).toEqual({ name: '2026 Fair Schedule', file: '2026-Benewah-County-Fair-Schedule.pdf' })
+    expect(downloads[1]).toEqual({ name: 'Complete Fairbook', file: 'Complete_Fairbook.pdf' })
   })
 
   it('lists exhibit departments and downloads alphabetically', () => {
     const departmentNames = departments.map(department => department.name)
 
     expect(departmentNames).toEqual([...departmentNames].sort((left, right) => left.localeCompare(right)))
-    expect(downloads.slice(1).map(download => download.name)).toEqual(departmentNames)
+    expect(downloads.slice(2).map(download => download.name)).toEqual(departmentNames)
   })
 
   it('includes class lots for searching and sharing', () => {

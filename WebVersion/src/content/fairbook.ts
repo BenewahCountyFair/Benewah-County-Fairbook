@@ -111,4 +111,8 @@ export const departments: Department[] = [
   { slug: 'youth', name: 'Youth Exhibits', icon: '🌟', source: 'Fairbook_Youth.idml / Youth.pdf', summary: 'Youth projects and age-appropriate creative exhibits.', rules: ['Youth exhibitors should enter age-appropriate work under the current youth department directions.'], classes: [{name:'Youth Projects',lots:['Art','Craft','Baking','Garden','Photography'].map(name=>({name}))}] },
 ]
 
-export const downloads = [{name:'Complete Fairbook', file:'Fairbook.pdf'}, ...departments.map(d => ({name:d.name, file: d.source.split('/ ').at(-1)!}))]
+export const downloads = [
+  {name:'2026 Fair Schedule', file:'2026-Benewah-County-Fair-Schedule.pdf'},
+  {name:'Complete Fairbook', file:'Complete_Fairbook.pdf'},
+  ...departments.map(d => ({name:d.name, file: d.source.split('/ ').at(-1)!})),
+]
