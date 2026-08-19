@@ -1985,27 +1985,24 @@ sewn by exhibitor
 
 **Class 4 - Quilts**
 
-1. Tied
-2. Machine Quilted
-3. Hand Quilted
-4. Baby / Lap Quilt (Tied)
-5. Baby / Lap Quilt (Machine Quilted)
+**Sections**
 
-6. Baby / Lap Quilt
-(Hand Quilted)
-7. Wall Hangings
-(patch work)
-8. Wall Hangings
-(Appliqué)
-9. Wall Hangings
-(stain glass)
+* A. Hand Quilted
+* B. Machine Quilted
+* C. Tied
+* D. Paper Pieced
 
-10. Wall Hangings
-(Other)
-11. Group Quilts
-12. Tree Skirts
-13. Table Runners
+**Lots**
 
+1. Baby
+2. Lap
+3. Wallhanging – Small
+4. Wallhanging – Large
+5. Bed Size
+6. Group
+7. Table Runner
+8. Tree Skirt
+9. Miscellaneous
 ---
 
 **Class 5 - Rugs**
