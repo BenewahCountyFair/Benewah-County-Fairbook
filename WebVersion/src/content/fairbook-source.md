@@ -158,7 +158,7 @@ Kiwanis Breakfast for Dinner
 
 ---
 
-# Antlers
+# Antlers & Wildlife
 
 **Premiums:**
 
@@ -174,7 +174,6 @@ All entries must be naturally shed antlers from moose, elk, whitetail deer, and 
 - Antlers may be re-entered each year.
 - Entries are scored using the Boone and Crockett scoring method. Ribbons are given to the highest-scoring shed in each category.
 - Sheds are displayed for the duration of the fair.
-- The most unique antlers receive the Judges’ Choice Award, chosen by two judges.
 ---
 
 **Class 1 - Whitetail Deer**
@@ -211,7 +210,23 @@ All entries must be naturally shed antlers from moose, elk, whitetail deer, and 
 
 **Class 5 - Most Unique Horn**
 
-Of any species (Judges’ Choice Award)
+Of any species
+
+---
+
+**Class 6 - Skulls**
+
+---
+
+**Class 7 - Pelts**
+
+---
+
+**Class 8 - Game Bird**
+
+---
+
+**Class 9 - Other**
 
 ---
 
@@ -230,7 +245,7 @@ Blue - $3 · Red - $2 · White - $1 · Purple Ribbon for Grand
 
 ---
 
-**Class 2 - Modern Collectibles**
+**Class 4 - Modern Collectibles**
 
 1. Refurbished
 2. Original
@@ -252,7 +267,7 @@ Blue - $3 · Red - $2 · White - $1 · Purple Ribbon for Grand
 
 1. Original (amateur)
 2. Copy (amateur)
-3. Original (professional
+3. Original (professional)
 4. Copy (professional)
 
 ---
@@ -305,6 +320,14 @@ Blue - $3 · Red - $2 · White - $1 · Purple Ribbon for Grand
 ---
 
 **Class 6 - Digital Art**
+
+---
+
+**Class 7 - Collages**
+
+---
+
+**Class 8 - Spray Paint**
 
 ---
 
@@ -1966,26 +1989,19 @@ sewn by exhibitor
 
 **Class 4 - Quilts**
 
-1. Tied
-2. Machine Quilted
-3. Hand Quilted
-4. Baby / Lap Quilt (Tied)
-5. Baby / Lap Quilt (Machine Quilted)
+**Sections:**
 
-6. Baby / Lap Quilt
-(Hand Quilted)
-7. Wall Hangings
-(patch work)
-8. Wall Hangings
-(Appliqué)
-9. Wall Hangings
-(stain glass)
+A. Hand Quilted · B. Machine Quilted · C. Tied · D. Paper Pieced
 
-10. Wall Hangings
-(Other)
-11. Group Quilts
-12. Tree Skirts
-13. Table Runners
+1. Baby
+2. Lap
+3. Wall Hanging - small
+4. Wall Hangings - large
+5. Bed Size
+6. Group
+7. Table Runner
+8. Tree Skirts
+9. Other
 
 ---
 
@@ -2096,18 +2112,19 @@ to hang
 
 **Class 13 - Crochet**
 
+Lots below apply to Classes 10, 11, 12, and 13.
+
 1. Afghan
 2. Baby Afghan
 3. Infant Set
-4. Mittens or Gloves
-
+4. Mittens, Gloves or Hats
 5. Slippers
 6. Socks
-7. Sweaters
-8. Shawl
-
-9. Vest
-10. Other
+7. Stuffed Animals & Characters
+8. Sweaters
+9. Shawl
+10. Vest
+11. Other
 
 ---
 

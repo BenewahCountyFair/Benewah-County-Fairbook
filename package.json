@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite --config WebVersion/vite.config.ts",
-    "build": "tsc -p WebVersion/tsconfig.json && vite build --config WebVersion/vite.config.ts",
-    "test": "vitest run --config WebVersion/vitest.config.ts"
+    "dev": "vite --config WebVersion/vite.config.mts",
+    "build": "tsc -p WebVersion/tsconfig.json && vite build --config WebVersion/vite.config.mts",
+    "test": "vitest run --config WebVersion/vitest.config.mts"
   },
   "dependencies": {
     "@astryxdesign/cli": "^0.1.6",
@@ -19,10 +19,11 @@
     "@types/node": "^26.1.1",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
-    "@vitejs/plugin-react": "^4.3.4",
+    "@vitejs/plugin-react": "^5.2.0",
+    "esbuild": "^0.28.2",
     "jsdom": "^24.1.3",
     "typescript": "^5.7.3",
-    "vite": "^5.4.20",
-    "vitest": "^2.1.9"
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
   }
 }

@@ -56,6 +56,33 @@ describe('fairbook publishing content', () => {
     expect(officialDepartmentContent('youth')).toContain('Entomology')
   })
 
+  it('includes the updated wildlife, art, and sewing classes in details and search', () => {
+    const antlers = departments.find(department => department.slug === 'antlers')!
+    expect(antlers.name).toBe('Antlers & Wildlife')
+    expect(antlers.classes.map(item => item.name)).toContain('Skulls')
+    expect(antlers.classes.map(item => item.name)).toEqual(expect.arrayContaining(['Pelts', 'Game Bird', 'Other']))
+    expect(officialDepartmentContent('antlers')).not.toContain('Judges’ Choice')
+    const art = officialDepartmentContent('art')
+    expect(art).toContain('Class 1 - Antiques')
+    expect(art).toContain('Class 4 - Modern Collectibles')
+    expect(art).toContain('Class 1 - Oil Painting')
+    expect(art).toContain('Class 7 - Collages')
+    expect(art).toContain('Class 8 - Spray Paint')
+    expect(art).not.toContain('# Baking')
+    expect(departments.find(department => department.slug === 'art')!.classes.map(item => item.name)).toContain('Spray Paint')
+    const sewing = departments.find(department => department.slug === 'sewing')!
+    expect(sewing.classes).toHaveLength(18)
+    expect(sewing.classes.find(item => item.name === 'Quilts')!.sections).toEqual(['Hand Quilted', 'Machine Quilted', 'Tied', 'Paper Pieced'])
+    for (const name of ['Hand Knitting', 'Hand Knitting with hand-spun yarn', 'Machine Knitting', 'Crochet']) {
+      expect(sewing.classes.find(item => item.name === name)!.lots.map(lot => lot.name)).toContain('Stuffed Animals & Characters')
+      expect(sewing.classes.find(item => item.name === name)!.lots).toHaveLength(11)
+    }
+    expect(officialDepartmentContent('sewing')).toContain('D. Paper Pieced')
+    expect(officialDepartmentContent('sewing')).toContain('5. Bed Size')
+    expect(officialDepartmentContent('sewing')).toContain('1. Baby\n2. Lap')
+    expect(sewing.classes.find(item => item.name === 'Quilts')!.lots.map(lot => lot.name)).toEqual(['Baby', 'Lap', 'Wall Hanging - small', 'Wall Hangings - large', 'Bed Size', 'Group', 'Table Runner', 'Tree Skirts', 'Other'])
+  })
+
   it('keeps every exhibition class lot list sequentially numbered', () => {
     const classSections = [...fairbookSource.matchAll(/(?:^|\n)\*\*Class [^\n]+\*\*([\s\S]*?)(?=\n---\n|\n\*\*Class |\n# |\s*$)/g)]
       .map(match => match[1])
